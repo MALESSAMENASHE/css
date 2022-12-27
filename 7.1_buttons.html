@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>refactor</title>
+    <title>buttons</title>
     <style>
         #container{
             background-image: url(/images/04image.jpg);
             text-align: center;
             margin:20px auto;
+            list-style: none;
+        }
+        .list{
+            list-style: none;
         }
         .text{
             padding: 15px;
@@ -18,8 +22,10 @@
             color: black;
             background-color: rgb(29, 140, 103);
             text-align: center;
+          }  
+          
     
-}
+
        .mm{padding: 15px;
             margin:0 auto;
             font-family: "Sofia", sans-serif;
@@ -36,9 +42,65 @@
             width: 300px;
             color:white
         }
-        
+        a:hover{
+            color: aqua;
+            text-decoration: underline;
+        }
+        .btn{
+            background: black;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            padding: 5px 15px;
+            border-radius: 5px;
+
+        }
+        .btn{
+            color:#f4f4f4;
+            background: rgb(41, 103, 82);
+        }
+        .navbar{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: rgb(41, 103, 82);;
+            border-radius: 5px;
+            overflow: auto;
+
+        }
+        .navbar li{
+            float: left
+        }
+        .navbar li a{
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding:15px 20px;
+        }
+        .navbar li a:hover{
+            background-color: rgb(95, 198, 164);
+            color: #f4f4f4;
+
+            
+        }
     </style>
 </head>
+    
+<body>
+  <ul class="navbar">
+  <li><a  href="https://www.youtube.com/watch?v=dGy04XN9Spw&list=RDdGy04XN9Spw&start_radio=1">Fill the VIBE</a></li>
+   <li>
+    <a href="https://www.israel3d.co.il/wp-content/uploads/2018/11/beer-sheva_3d_city_ver03_by_ISRAEL3D.jpg">home</a>
+   </li>
+   <li>
+    <a href="">services</a>
+   </li>
+   <li>
+    <a href="">cotact</a>
+   </li>
+</ul>>
+
+  
   <div id="container">
     <div id="about" class="mm">
         <h1>I'm Menashe Malessa</h1> </div>
@@ -63,7 +125,7 @@
      </div>
  <div id="contact" class="text">
     <P><u><b>Follow me</b></u></P>
-<ul>
+<ul class="list">
     <li>
       <a href="https://github.com/MALESSAMENASHE">My github</a>
     </li>
@@ -73,14 +135,11 @@
   </ul>
 </div>
 <div>
-  <button>
-    <a href="https://www.facebook.com/menashe.malessa90">My facebook profil pic</a>
+  <button class="btn">
+    <a href="https://y.yarn.co/d39e95a3-1682-498c-9c2f-1b3b062ab0cf_text.gif">Watch me work </a>
   </button>
 </div>
-
 </div>
 
-<body>
-    
 </body>
 </html>
