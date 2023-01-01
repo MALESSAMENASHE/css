@@ -11,32 +11,24 @@
             box-sizing: border-box;
 
         }
+    
         .box{
+            box-sizing: border-box;
             background-color: aqua;
-            width: 100px;
+            border: 2px solid white;
             height: 150px;
-            text-align: left;
             padding: 10px;
             margin: 10px;
-            /* max-width: auto; */
             overflow: hidden;
-            box-sizing: border-box;
-            /* display: inline-block; */
-            /* display: inline-block; */
-           
+            float: left;
+            width:20%;   
         }
+    
+    @media (max-width:600px) {
+    .box{
+        width: 50%;
     }
-        @media(max-width:600px) {
-            .box{
-                display: inline-block; 
-            
-            }
-        }
-        /* @media(min-width:800px){
-            body{
-            font-size:40px}
-        } */
-
+}
     </style>
 </head>
 <body>
