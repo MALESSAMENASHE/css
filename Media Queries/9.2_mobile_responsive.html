@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile responsive</title>
+    <style>
+        *{  margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .box{
+            background-color: aqua;
+            width: 100px;
+            height: 150px;
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+            /* max-width: auto; */
+            overflow: hidden;
+            box-sizing: border-box;
+            /* display: inline-block; */
+            /* display: inline-block; */
+           
+        }
+    }
+        @media(max-width:600px) {
+            .box{
+                display: inline-block; 
+            
+            }
+        }
+        /* @media(min-width:800px){
+            body{
+            font-size:40px}
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box">
+        <h1>First item</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta suscipit illo quam. Laboriosam, quaerat?</p></div>
+        <div class="box">
+        <h1>Second item</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta suscipit illo quam. Laboriosam, quaerat?</p></div>
+        <div class="box">
+        <h1>Third item</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta suscipit illo quam. Laboriosam, quaerat?</p></div>
+        <div class="box">
+        <h1>Fourth item</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dicta suscipit illo quam. Laboriosam, quaerat?</p></div>
+    </div>
+    
+</body>
+</html>
