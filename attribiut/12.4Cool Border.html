@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo_box_color</title>
+    <style>
+        
+
+        body{
+            width: 50%;
+          
+           
+            background-color: black;
+        }
+        .boxs{
+            display:flex;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            /* align-items: ; */
+          margin: auto;
+        }
+        .box1{
+            background-color: red;
+            width:10rem;
+            height: 20rem;   
+        }
+        .box2{
+            background-color: white;
+            width:10rem;
+            height: 20rem;   
+        }
+        .boxs:hover{
+            width:10rem;
+            height: 20rem;
+            background-color: black;
+            border: 1px solid orangered;
+            border-radius: 10%;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header class="boxs">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </header>
+    
+</body>
+</html>
