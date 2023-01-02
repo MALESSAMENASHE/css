@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseudo_box_color</title>
     <style>
+        *{
+            width: 50%;
+            height: 50%;
+            margin: auto;
+        }
         
 
-        body{
-            width: 50%;
-          
-           
-            background-color: black;
-        }
+    
         .boxs{
-            display:flex;
+            background-color: white;
             position: relative;
-            top: 50%;
-            left: 50%;
+            width: 200px;
+            height: 200px;
+    
             /* align-items: ; */
-          margin: auto;
+            margin: auto;
         }
         .box1{
-            background-color: red;
-            width:10rem;
-            height: 20rem;   
+            background-color: black;
+            width:50%;
+            height: 50%;
+            float: left;   
         }
         .box2{
-            background-color: white;
-            width:10rem;
-            height: 20rem;   
+            background-color: black;
+            width:50%;
+            height: 50%;
+            float: left;  
         }
         .boxs:hover{
             width:10rem;
