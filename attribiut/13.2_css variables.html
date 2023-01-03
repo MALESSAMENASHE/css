@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>css varibles</title>
     <style>
-        DIV{
-            
-            align-items: center;
-            background-color: black ;
-            size: 50px 50px;
-        }
+        .box{
+            width: 15rem;
+            height: 20rem;
+            background-color: red;
 
+        }
+        .box:hover {
+            width: 15rem;
+            height: 20rem;
+            background-color: blue;
+            transition-property: background;
+            transition-duration: 2s;
+            transform-style: flat;
+
+
+
+        }
     </style>
 </head>
 <body>
-    <DIV></DIV>
+    <div class="box"></div>
+
     
 </body>
 </html>
