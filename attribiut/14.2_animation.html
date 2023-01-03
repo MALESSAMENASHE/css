@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        list-style: none;
+        width: 50vh;
+    
+        
+
+    }
+    ul{padding: 5spx;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        height: 2rem;
+        width: 5rem;
+        border: black solid 1px;
+        margin: 4px;
+        /* padding-top: 7px; */
+        text-align: center;
+        position: relative;
+        
+    }
+    box{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            transition-property: ;
+           
+        }
+    .box:after{
+            content:'';
+            height:200px;
+            width: 200px;
+            background-color: blueviolet;
+            position: absolute;
+            transform: scale(100%);
+            animation:animate1 5s infinite 2s;
+            left:100px
+
+        }
+        @keyframes animate1{
+            from{
+                left: 0;
+            }
+            to {
+                left:100%;
+                
+            }
+            }
+        
+       
+
+</style>
+<body>
+  <ul class="up">
+    <li class="box1">TranslateY</li>
+    <li class="box2">TranslateX</li>
+    <li class="box3"> Rotate</li>
+  </ul>
+  <ul class="down">
+    <li class="box4">Scale</li>
+    <li class="box5">Skew</li>
+  </ul>
+    
+</body>
+</html>
