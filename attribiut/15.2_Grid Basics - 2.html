@@ -7,8 +7,12 @@
     <title>Document</title>
     <style>
         *{
-            max-width: 50vh;
-            align-items: center;
+            margin: 0;
+            padding: 0 ;
+            max-width: 100vh;
+            box-sizing: border box;
+           
+          
         }
         .container{
             justify-content: center;
@@ -17,7 +21,6 @@
             
         }
         .container >div{ 
-            height: 2rem;
             text-align: center;
             border-radius: 5%;
             padding: 0.3 rem;
@@ -32,8 +35,7 @@
         }
         .item2{background-color:blue ;
             grid-column: 1 /span 2;
-            grid-row: 2 /span 3;
-            padding: 1.3rem;
+            grid-row: 2 /4 ; 
 
         }.item3{background-color: green;
             grid-column: 3 /span 4;

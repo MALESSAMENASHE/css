@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100vh;
+            height: 100vh;
+            display: grid;
+            grid-template-areas: 
+            'box1 box1 box2'
+            'box1 box1 box2'
+            'box3 box3 box3'
+            'box4 box4 box4';
+            gap: 1rem;
+        }
+        .container> div{
+            width: 100%;
+            border-radius: 5%;
+            
+          
+            
+        }
+        .box1{ grid-area: box1;background-color: blue;}
+        .box2{grid-area: box2;background-color: green;}
+        .box3{grid-area: box3;background-color: yellow;}
+        .box4{grid-area: box4;background-color: red;}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+    
+</body>
+</html>
